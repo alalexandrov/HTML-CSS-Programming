@@ -1,0 +1,249 @@
+﻿body, div, section, p, img, ul, li, a, input, header, footer, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("../Images/body-tail.gif");
+    font-family: sans-serif;
+}
+
+#siteWrap {
+    width: 1000px;
+    height: 1400px;
+    margin: 0 auto;
+   
+}
+
+#siteHeader {
+    height: 200px;
+}
+
+    #siteHeader ul {
+        background: url("../Images/navigation-tail.gif");
+        margin-top: 42px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 15px 15px 0px 0px;
+        padding-left: 10px;
+    }
+
+        #siteHeader ul li {
+            list-style-type: none;
+            display: inline-block;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+            #siteHeader ul li a {
+                text-decoration: none;
+                color: black;
+                text-transform: uppercase;
+            }
+
+                #siteHeader ul li a:hover {
+                    text-decoration: underline;
+                }
+
+#siteLogo {
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+#about {
+    height: 400px;
+    background: url("../Images/carbon-tail.jpg");
+}
+
+    #about div {
+        width: 400px;
+        height: auto;
+        float: left;
+        margin-top: 50px;
+        margin-left: 70px;
+    }
+
+        #about div header {
+            font-size: 50px;
+            color: white;
+            color: #e9e9e9;
+        }
+
+        #about div h2 {     
+            font-size: 20px;
+            margin-left: 0px;
+            color: #efefef;
+        }
+
+        #about div p {
+            margin-top: 30px;
+            margin-left: 0px;
+            color: #767575;
+        }
+
+        #about div a {
+            display: block;
+            text-decoration: none;
+            background: url("../Images/btn-background.png");
+            background-position: center 0px;
+            width: 150px;
+            height: 40px;
+            margin-top: 40px;
+            margin-left: 0px;
+            text-align: center;
+            line-height: 36px;
+            color: black;
+            border: 1px solid black;
+            border-radius: 15px;
+        }
+
+            #about div a:hover {
+                background-position: center 50px;
+                color: #efefef;
+            }
+
+    #about img {
+        width: 300px;
+        height: 300px;
+        float: right;
+        margin-top: 50px;
+        margin-right: 50px;
+    }
+
+
+
+
+
+#ServicesContainer {
+    background: url("../Images/before-content-tail.gif");
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+    #ServicesContainer section {
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-left: 24px;
+        float: left;
+        padding: 2px;
+    }
+
+        #ServicesContainer section .box-text {
+            width: 289px;
+            height: 94px;
+            background: url("../Images/box-text-background.png");
+            margin: 3px;
+            color: white;
+            text-transform: uppercase;
+            font-size: 15px;
+            color: #efefef;
+        }
+
+            #ServicesContainer section .box-text img {
+                margin-top: 5px;
+                margin-left: 10px;
+                width: 80px;
+                height: 80px;
+                float: left;
+            }
+
+            #ServicesContainer section .box-text span {
+                margin-top: 35px;
+                margin-left: 10px;
+                float: left;
+            }
+
+        #ServicesContainer section > a {
+            text-decoration: none;
+            text-align: center;
+            line-height: 26px;
+            display: block;
+            margin: 20px auto 20px auto;
+            background: url("../Images/btn-background.png");
+            background-position: center 50px;
+            color: white;
+            width: 130px;
+            height: 30px;
+            color: #efefef; 
+            border-radius: 10px;
+        }
+
+            #ServicesContainer section > a:hover {
+                background-position: center 0px;
+                color: black;
+            }
+
+        #ServicesContainer section ul li {
+            border-top: 1px solid white;
+            list-style-type: none;
+            padding: 10px;
+        }
+
+            #ServicesContainer section ul li img {
+                margin-right: 10px;
+            }
+
+            #ServicesContainer section ul li:nth-child(2n+1) {
+                background-color: #e9e9e9;
+            }
+
+            #ServicesContainer section ul li:nth-child(2n) {
+                background-color: #efefef;
+            }
+
+footer {
+    background-image: url("../Images/carbon-tail.jpg");
+    border-radius: 0px 0px 15px 15px;
+    overflow: hidden;
+}
+
+    footer img {
+        width: 200px;
+        height: 200px;
+        float: left;
+        margin: 30px;
+        display: block;
+    }
+
+    footer #AddressContainer {
+        float: left;
+        margin-top: 30px;
+        margin-left: 50px;
+        color: #efefef;
+    }
+
+        footer #AddressContainer p {
+            margin-top: 15px;
+        }
+
+        footer #AddressContainer a {
+            display: block;
+            text-decoration: none;
+            background: url("../Images/btn-background.png");
+            background-position: center 0px;
+            width: 150px;
+            height: 40px;
+            margin-top: 20px;
+            margin-left: 0px;
+            text-align: center;
+            line-height: 36px;
+            color: black;
+            border: 1px solid black;
+            border-radius: 15px;
+        }
+
+            footer #AddressContainer a:hover {
+                background-position: center 50px;
+                color: #efefef;
+            }
+
+
+
+/*Clearfix*/
+    .clearfix:after {
+        overflow: hidden;
+        content: " ";
+        display: block;
+        clear: both;
+        height: 0;
+    }

@@ -1,0 +1,182 @@
+﻿body, div, section, p, img, ul, li, a, input, header, footer, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../Images/body-tail.gif);
+    font-family: sans-serif;
+}
+
+#siteWrap {
+    width: 1000px;
+    height: 1400px;
+    margin: 0 auto;
+}
+
+
+/*Header*/
+
+#siteHeader {
+    height: 200px;
+}
+
+    #siteHeader ul {
+        background: url("../Images/navigation-tail.gif");
+        margin-top: 42px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 15px 15px 0px 0px;
+        padding-left: 10px;
+    }
+
+        #siteHeader ul li {
+            list-style-type: none;
+            display: inline-block;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+            #siteHeader ul li a {
+                text-decoration: none;
+                color: black;
+                text-transform: uppercase;
+            }
+
+                #siteHeader ul li a:hover {
+                    text-decoration: underline;
+                }
+
+#siteLogo {
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+
+
+/*Services*/
+
+
+#ServicesContainer {
+    background: url("../Images/before-content-tail.gif") repeat-x #F9F9F9;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+    #ServicesContainer h2 {
+        margin-left: 30px;
+    }
+
+    #ServicesContainer hr {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    #ServicesContainer section {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+        #ServicesContainer section img {
+            width: 400px;
+            height: 220px;
+            border: 1px solid #bbb;
+            float: left;
+        }
+
+        #ServicesContainer section .serviceText {
+            width: 520px;
+            float: left;
+            margin-left: 20px;
+        }
+
+            #ServicesContainer section .serviceText h3 > a {
+                color: black;
+                text-decoration: none;
+            }
+
+                #ServicesContainer section .serviceText h3 a:hover {
+                    text-decoration: underline;
+                }
+
+            #ServicesContainer section .serviceText p {
+                overflow:hidden;
+                height: 140px;
+                margin-top: 10px;
+            }
+
+            #ServicesContainer section .serviceText > a {
+                text-decoration: none;
+                text-align: center;
+                line-height: 26px;
+                display: block;
+                margin: 15px auto 0px 0px;
+                background: url("../Images/btn-background.png");
+                background-position: center 50px;
+                color: white;
+                width: 130px;
+                height: 30px;
+                color: #efefef;
+                border-radius: 10px;
+            }
+            #ServicesContainer section .serviceText > a:hover {
+                background-position: center 0px;
+                color: black;
+            }
+
+footer {
+    background-image: url("../Images/carbon-tail.jpg");
+    border-radius: 0px 0px 15px 15px;
+    overflow: hidden;
+}
+
+    footer img {
+        width: 200px;
+        height: 200px;
+        float: left;
+        margin: 30px;
+        display: block;
+    }
+
+    footer #AddressContainer {
+        float: left;
+        margin-top: 30px;
+        margin-left: 50px;
+        color: #efefef;
+    }
+
+        footer #AddressContainer p {
+            margin-top: 15px;
+        }
+
+        footer #AddressContainer a {
+            display: block;
+            text-decoration: none;
+            background: url("../Images/btn-background.png");
+            background-position: center 0px;
+            width: 150px;
+            height: 40px;
+            margin-top: 20px;
+            margin-left: 0px;
+            text-align: center;
+            line-height: 36px;
+            color: black;
+            border: 1px solid black;
+            border-radius: 15px;
+        }
+
+            footer #AddressContainer a:hover {
+                background-position: center 50px;
+                color: #efefef;
+            }
+
+
+
+/*Clearfix*/
+.clearfix:after {
+    overflow: hidden;
+    content: " ";
+    display: block;
+    clear: both;
+    height: 0;
+}
